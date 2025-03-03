@@ -2,7 +2,48 @@
 # Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/ApiCrud/FileContentIndex
-/bin/Debug/net8.0
-/.vs
-/obj
+# Ignora arquivos de compilação e binários
+bin/
+obj/
+
+# Ignora arquivos de usuário específicos do Visual Studio
+*.user
+*.suo
+
+# Ignora arquivos de configuração local
+*.local
+
+# Ignora arquivos de cache do ReSharper
+_ReSharper.*
+*.ReSharper
+
+# Ignora arquivos de cache do NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Ignora arquivos de log e banco de dados
+*.log
+*.sqlite
+
+# Ignora pastas de pacotes NuGet
+packages/
+
+# Ignora arquivos de saída de publicação
+publish/
+
+# Ignora arquivos de configuração de ambiente
+.env
+.env.local
+
+# Ignora arquivos de configuração do Docker
+docker-compose.override.yml
+
+# Ignora arquivos de configuração do Azure
+azure-*.json
+
+# Ignora arquivos de configuração do Rider
+.idea/
+*.idea
+
+# Ignora arquivos de configuração do VS Code
+.vscode/
