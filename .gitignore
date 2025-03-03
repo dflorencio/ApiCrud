@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ApiCrud/FileContentIndex
+/bin/Debug/net8.0
+/.vs
+/obj
